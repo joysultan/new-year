@@ -1,2 +1,5 @@
 font-family: "Merriweather", serif;
 font-family: "Inter", serif;
+p-color{
+    #6A6770
+}

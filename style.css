@@ -154,7 +154,9 @@ line-height: 56px;
     align-items: center;
     gap: 70px;
 }
-.offer-column{}
+.best-offer{
+    margin-bottom: 120px;
+}
 .offer-column h4{
     font-size: 24px;
 font-weight: 500;
@@ -185,4 +187,35 @@ margin-bottom: 22px;
     color: red;
     font-family: "Inter", serif;
 
+}
+.holiday{
+
+}
+.holiday-content{
+    text-align: center;
+}
+.holiday-content h3{
+    font-size: 24px;
+    font-family: "Inter", serif;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.holiday-content h2{
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 28px;
+}
+.holiday-content span{
+    color: black;
+}
+.holiday-content p{
+    font-size: 20px;
+    color: #6A6770;
+font-weight: 500;
+}
+.discount-img{
+    background-color: white;
+    margin-top: 70px;
 }
