@@ -37,8 +37,8 @@ main{
 font-weight: 900;
 line-height: 95px;
 }
-.dicount-offer{
-
+.discount-offer{
+    margin-bottom: 120px;
 }
 .discount{
     text-align: center;
@@ -59,4 +59,48 @@ margin-bottom: 48px;
 .discount h3{
     font-size: 48px;
     margin-bottom: 48px;
+}
+
+.midnight{
+    
+   
+    
+    margin-bottom: 120px;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 126px;
+    background-size: cover;
+    border-radius: 16px;
+   
+}
+.midnight-content{
+   
+}
+.midnight-content h2{
+    font-size: 64px;
+    color: white;
+font-weight: 900;
+line-height: 88px;
+font-family: "Merriweather", serif;
+margin-bottom: 24px;
+}
+.midnight-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    width: 697px;
+    font-family: "Inter", serif;
+    margin-bottom: 48px;
+}
+.midnight-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
 }
