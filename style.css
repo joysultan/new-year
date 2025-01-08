@@ -305,3 +305,52 @@ font-family: "Inter", serif;
 cursor: pointer;
     
 }
+footer{
+    background-color: #070211;
+    padding: 140px;
+}
+.top-column{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.right-side h3{
+    font-size: 24px;
+    font-family: "Inter", serif;  
+font-weight: 500;
+line-height: 40px;
+}
+.left-side h3{
+    font-size: 24px;
+    font-family: "Inter", serif;  
+font-weight: 500;
+line-height: 40px;
+}
+.icon-part{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.icon-part img{
+
+}
+.icon-part h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Inter", serif;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.bottom-column{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
