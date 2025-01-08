@@ -218,4 +218,37 @@ font-weight: 500;
 .discount-img{
     background-color: white;
     margin-top: 70px;
+    margin-bottom: 120px;
+}
+.gift-content{
+    margin-bottom: 50px;
+}
+.gift-content h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    font-family: "Inter", serif;
+}
+.gift-content h2{
+    font-size: 48px;    
+font-weight: 900;
+font-family: "Merriweather", serif;
+}
+.gift-content p{
+    font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+font-family: "Inter", serif;
+color: #6A6770;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+
+}
+.extra-gap{
+    margin-top: 20px;
 }
