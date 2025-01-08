@@ -17,6 +17,7 @@ main{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
     margin-top: 50px;
     border-radius: 16px;
+    margin-bottom: 120px;
 
 
 
@@ -35,4 +36,27 @@ main{
     font-family: "Merriweather", serif;
 font-weight: 900;
 line-height: 95px;
+}
+.dicount-offer{
+
+}
+.discount{
+    text-align: center;
+    font-family: "Inter", serif;
+}
+.discount h2{
+    font-size: 88px;
+    color: red;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.discount h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 16px;
+}
+.discount h3{
+    font-size: 48px;
+    margin-bottom: 48px;
 }
