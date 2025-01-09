@@ -1,356 +1,351 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-main{
-    max-width: 1320px;
-    margin: 0 auto;
+
+main {
+  
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+
+    
 }
-.banner{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Banner\ Image.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),  url(images/Banner\ Image.png);  
-    margin-top: 50px;
-    border-radius: 16px;
-    margin-bottom: 120px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  border-radius: 16px;
+  margin-bottom: 120px;
 
 
-
+ 
 }
-.b-content{
-    color: white;
-    text-align: center;
+.b-content {
+  color: white;
+  text-align: center;
 }
-.b-content h3{
-    font-size: 32px;
-    font-family: "Merriweather", serif;
-    font-weight: 400;
+.b-content h3 {
+  font-size: 32px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
 }
-.b-content h2{
-    font-size: 72px;
-    font-family: "Merriweather", serif;
-font-weight: 900;
-line-height: 95px;
+.b-content h2 {
+  font-size: 72px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  line-height: 95px;
 }
-.discount-offer{
-    margin-bottom: 120px;
+.discount-offer {
+  margin-bottom: 120px;
 }
-.discount{
-    text-align: center;
-    font-family: "Inter", serif;
+.discount {
+  text-align: center;
+  font-family: "Inter", serif;
 }
-.discount h2{
-    font-size: 88px;
-    color: red;
-font-weight: 700;
-margin-bottom: 48px;
+.discount h2 {
+  font-size: 88px;
+  color: red;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
-.discount h5{
-    font-size: 24px;
-    font-weight: 500;
-    color: red;
-    margin-bottom: 16px;
+.discount h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 16px;
 }
-.discount h3{
-    font-size: 48px;
-    margin-bottom: 48px;
-}
-
-.midnight{
-    
-   
-    
-    margin-bottom: 120px;
-    height: 600px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 126px;
-    background-size: cover;
-    border-radius: 16px;
-   
+.discount h3 {
+  font-size: 48px;
+  margin-bottom: 48px;
 }
 
-.midnight-content h2{
-    font-size: 64px;
-    color: white;
-font-weight: 900;
-line-height: 88px;
-font-family: "Merriweather", serif;
-margin-bottom: 24px;
+.midnight {
+  margin-bottom: 120px;
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 126px;
+  background-size: cover;
+  border-radius: 16px;
 }
-.midnight-content p{
-    font-size: 18px;
-    line-height: 30px;
-    color: white;
-    width: 697px;
-    font-family: "Inter", serif;
-    margin-bottom: 48px;
-}
-.midnight-content a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Inter", serif;
-}
-.event{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    padding: 100px;
-    border-radius: 8px;
-    margin-bottom: 120px;
-    
-}
-.event-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    font-family: "Inter", serif;
-}
-.event-button{
-    text-align: center;
-}
-.event-content span{
-    color: red;
-   font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-}
-.event-content h3{
-    font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-}
-.event-button a{
-    background-color: red;
-    padding: 15px 32px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: "Inter", serif;
-   
-    
-}
-.last-event{
-    margin-bottom: 48px;
 
+.midnight-content h2 {
+  font-size: 64px;
+  color: white;
+  font-weight: 900;
+  line-height: 88px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 24px;
 }
-.offer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+.midnight-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  width: 697px;
+  font-family: "Inter", serif;
+  margin-bottom: 48px;
 }
-.best-offer{
-    margin-bottom: 120px;
+.midnight-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Inter", serif;
 }
-.offer-column h4{
-    font-size: 24px;
-font-weight: 500;
-text-transform: uppercase;
-color: red;
-font-family: "Inter", serif;
-margin-bottom: 22px;
+.event {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px;
+  border-radius: 8px;
+  margin-bottom: 120px;
 }
-.p-width{
-    width: 393px;
+.event-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", serif;
 }
-.offer-column h2{
-    font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-font-family: "Merriweather", serif;
-margin-bottom: 22px;
+.event-button {
+  text-align: center;
 }
-.offer-column p{
-    color:#6A6770;
-    font-family: "Inter", serif;
-    margin-bottom: 30px;
-    margin-top: 22px;
+.event-content span {
+  color: red;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.event-content h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.event-button a {
+  background-color: red;
+  padding: 15px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Inter", serif;
+}
+.last-event {
+  margin-bottom: 48px;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.best-offer {
+  margin-bottom: 120px;
+}
+.offer-column h4 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: red;
+  font-family: "Inter", serif;
+  margin-bottom: 22px;
+}
+.p-width {
+  width: 393px;
+}
+.offer-column h2 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+  margin-bottom: 22px;
+}
+.offer-column p {
+  color: #6a6770;
+  font-family: "Inter", serif;
+  margin-bottom: 30px;
+  margin-top: 22px;
+}
+.offer-column h3 {
+  font-size: 48px;
+  color: red;
+  font-family: "Inter", serif;
+}
 
+.holiday-content {
+  text-align: center;
 }
-.offer-column h3{
-    font-size: 48px;
-    color: red;
-    font-family: "Inter", serif;
-
+.holiday-content h3 {
+  font-size: 24px;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.holiday{
-
+.holiday-content h2 {
+  font-size: 72px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  color: red;
+  margin-bottom: 28px;
 }
-.holiday-content{
-    text-align: center;
+.holiday-content span {
+  color: black;
 }
-.holiday-content h3{
-    font-size: 24px;
-    font-family: "Inter", serif;
-font-weight: 500;
-margin-bottom: 16px;
+.holiday-content p {
+  font-size: 20px;
+  color: #6a6770;
+  font-weight: 500;
 }
-.holiday-content h2{
-    font-size: 72px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    color: red;
-    margin-bottom: 28px;
+.discount-img {
+  background-color: white;
+  margin-top: 70px;
+  margin-bottom: 120px;
+  text-align: center;
 }
-.holiday-content span{
-    color: black;
+.gift {
+  margin-bottom: 120px;
 }
-.holiday-content p{
-    font-size: 20px;
-    color: #6A6770;
-font-weight: 500;
+.gift-content {
+  margin-bottom: 50px;
 }
-.discount-img{
-    background-color: white;
-    margin-top: 70px;
-    margin-bottom: 120px;
+.gift-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  font-family: "Inter", serif;
 }
-.gift{
-    margin-bottom: 120px;
+.gift-content h2 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
 }
-.gift-content{
-    margin-bottom: 50px;
+.gift-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", serif;
+  color: #6a6770;
 }
-.gift-content h3{
-    font-size: 24px;
-    font-weight: 500;
-    color: red;
-    font-family: "Inter", serif;
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
-.gift-content h2{
-    font-size: 48px;    
-font-weight: 900;
-font-family: "Merriweather", serif;
+.extra-gap {
+  margin-top: 20px;
 }
-.gift-content p{
-    font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-font-family: "Inter", serif;
-color: #6A6770;
+.newsletter {
+  background-color: #fff2f2;
+  border-radius: 16px;
+  padding: 80px;
+  margin-bottom: 120px;
 }
-.card-container{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.newsletter-content {
+  text-align: center;
 }
-.extra-gap{
-    margin-top: 20px;
+.newsletter-content h2 {
+  font-size: 48px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 22px;
 }
-.newsletter{
-    background-color: #FFF2F2;
-    border-radius: 16px;
-    padding: 80px;
-    margin-bottom: 120px;
+.newsletter-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Inter", serif;
+  color: #6a6770;
+  margin-bottom: 50px;
 }
-.newsletter-content{
-    text-align: center;
+.newsletter-input-field {
+  text-align: center;
 }
-.newsletter-content h2{
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-font-weight: 900;
-margin-top: 40px;
-margin-bottom: 22px;
+#email {
+  border: none;
+  padding: 25px;
+  border-radius: 50px;
+  width: 33%;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", serif;
 }
-.newsletter-content p{
-    font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-font-family: "Inter", serif;
-color:  #6A6770;
-margin-bottom: 50px;
+#subscribe {
+  width: 20%;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 25px;
+  border: none;
+  margin-left: -12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Inter", serif;
+  cursor: pointer;
 }
-.newsletter-input-field{
-    text-align: center;
-    
+footer {
+  background-color: #070211;
+  padding: 140px;
 }
-#email{
-    border: none;
-    padding: 25px;
-    border-radius: 50px;
-    width: 33%;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: "Inter", serif;
-
+.top-column {
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
-#subscribe{
-    width: 20%;
-    border-radius: 0px 50px 50px 0px;
-background: #F00;
-padding: 25px;
-border: none;
-margin-left: -12px;
-font-size: 20px;
-font-weight: 600;
-color: white;
-text-transform: capitalize;
-font-family: "Inter", serif;
-cursor: pointer;
-    
+.right-side h3 {
+  font-size: 24px;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  line-height: 40px;
 }
-footer{
-    background-color: #070211;
-    padding: 140px;
+.left-side h3 {
+  font-size: 24px;
+  font-family: "Inter", serif;
+  font-weight: 500;
+  line-height: 40px;
 }
-.top-column{
-    display: flex;
-    justify-content: space-between;
-    color: white;
+.icon-part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
-.right-side h3{
-    font-size: 24px;
-    font-family: "Inter", serif;  
-font-weight: 500;
-line-height: 40px;
+.icon-part img {
 }
-.left-side h3{
-    font-size: 24px;
-    font-family: "Inter", serif;  
-font-weight: 500;
-line-height: 40px;
+.icon-part h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: "Inter", serif;
 }
-.icon-part{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  cursor: pointer;
+  margin-top: 60px;
 }
-.icon-part img{
-
-}
-.icon-part h4{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-    font-family: "Inter", serif;
-}
-.social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    cursor: pointer;
-    margin-top: 60px;
-}
-.bottom-column{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
+.bottom-column {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
 }

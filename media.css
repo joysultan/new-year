@@ -1,0 +1,168 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  main{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .banner{
+    height: 155px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .b-content h3{
+    font-size: 19px;
+  }
+  .b-content h2{
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .discount h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .discount h5{
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .discount h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .discount img{
+    width: 100%;
+  }
+  .midnight{
+    height: 190px;
+    padding: 30px;
+  }
+  .midnight-content h2{
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .midnight-content p{
+    line-height: 16px;
+    margin-bottom: 15px;
+    width: 200px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+main{
+  max-width: 535px;
+  margin: 0 auto;
+}
+.banner{
+  height: 260px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.b-content h3{
+  font-size: 25px;
+}
+.b-content h2{
+  font-size: 30px;
+  line-height: 56px;
+}
+
+.discount h2{
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.discount h3{
+  font-size: 30px;
+  margin-bottom: 35px;
+
+}
+.discount img{
+  width: 100%;
+}
+  .midnight{
+    height: 266px;
+    padding: 70px;
+  }
+  .midnight-content h2{
+    font-size: 25px;
+    line-height: 46px;
+    margin-bottom: 17px;
+  }
+  .midnight-content p{
+    line-height: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+main{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.banner{
+  height: 350px;
+  margin-top: 30px;
+  margin-bottom: 110px;
+}
+.b-content h3{
+  font-size: 25px;
+}
+.b-content h2{
+  font-size: 50px;
+  line-height: 80px;
+}
+.discount h2{
+  font-size: 70px;
+  margin-bottom: 44px;
+}
+.discount h5{
+  margin-bottom: 12px;
+}
+.discount h3{
+  font-size: 40px;
+  margin-bottom: 44px; 
+}
+
+.discount img{
+  width: 100%;
+}
+  .midnight{
+    height: 130px;
+  }
+  .midnight-content h2{
+    font-size: 45px;
+    line-height: 70px;
+    margin-bottom: 24px;
+  }
+  .midnight-content p{
+    margin-bottom: 35px;
+    line-height: 26px;
+    width: 400px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .banner{
+    height: 510px;
+  }
+  .midnight{
+    height: 345px;
+  }
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+  
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
