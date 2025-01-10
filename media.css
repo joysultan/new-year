@@ -16,6 +16,9 @@
     font-size: 20px;
     line-height: 35px;
   }
+  .discount-offer{
+    margin-bottom: 60px;
+  }
   .discount h2{
     font-size: 25px;
     margin-bottom: 20px;
@@ -34,6 +37,7 @@
   .midnight{
     height: 190px;
     padding: 30px;
+    margin-bottom: 60px;
   }
   .midnight-content h2{
     font-size: 20px;
@@ -41,10 +45,56 @@
     margin-bottom: 10px;
   }
   .midnight-content p{
-    line-height: 16px;
-    margin-bottom: 15px;
-    width: 200px;
+    line-height: 18px;
+    margin-bottom: 13px;
+    width: 250px;
   }
+  .last-event{
+    margin-bottom: 20px;
+  }
+  .event-content h3{
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .event-content span{
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .event{
+    padding: 20px;
+  }
+  .event-button a{
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .offer-container{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .offer-column p{
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 300px;
+  }
+  .offer-column h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+
+  }
+  .offer-column h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .offer-column h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .second-img{
+    width: 250px;
+  }
+
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -91,6 +141,47 @@ main{
     line-height: 20px;
     width: 200px;
     margin-bottom: 30px;
+  }
+  .event{
+    padding: 30px;
+    
+  }
+  .last-event{
+    margin-bottom: 35px;
+  }
+  .event-button a{
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+  .event-content h3{
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .event-content span{
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .offer-container{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .offer-column p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .offer-column h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+  }
+  .offer-column h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .offer-column h2{
+    font-size: 30px;
+    margin-bottom: 15px;
   }
 }
 
@@ -141,6 +232,44 @@ main{
     line-height: 26px;
     width: 400px;
   }
+  .event-content span{
+    font-size: 28px;
+  }
+  .event-content h3{
+    font-size: 28px;
+  }
+  .last-event {
+    margin-bottom: 45px;
+  }
+  .event{
+    padding: 70px;
+  }
+  .event-button a{
+    padding: 12px 30px;
+  }
+  .second-img{
+    width: 300px;
+  }
+  .p-width{
+    width: 180px;
+  }
+  .offer-column h4{
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .offer-column h2{
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+  .second-img{
+    width: 230px;
+  }
+  .offer-column h3{
+    font-size: 35px;
+  }
+  .offer-column p{
+    margin-bottom: 18px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -155,7 +284,15 @@ main{
   .midnight{
     height: 345px;
   }
-
+  .second-img{
+    width: 300px;
+  }
+  .p-width{
+    width: 280px;
+  }
+  .offer-column h2{
+    font-size: 40px;
+  }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */

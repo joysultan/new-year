@@ -154,10 +154,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 70px;
 }
 .best-offer {
   margin-bottom: 120px;
+ 
 }
 .offer-column h4 {
   font-size: 24px;
@@ -187,6 +188,9 @@ main {
   font-size: 48px;
   color: red;
   font-family: "Inter", serif;
+}
+.offer-column{
+ 
 }
 
 .holiday-content {
