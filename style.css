@@ -4,8 +4,6 @@
 }
 
 main {
-  
-  width: 100%;
   max-width: 1320px;
   margin: 0 auto;
 
@@ -189,9 +187,7 @@ main {
   color: red;
   font-family: "Inter", serif;
 }
-.offer-column{
- 
-}
+
 
 .holiday-content {
   text-align: center;

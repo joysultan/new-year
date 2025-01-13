@@ -93,7 +93,94 @@
   .second-img{
     width: 250px;
   }
-
+  .holiday-content h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .holiday-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .holiday-content p{
+    font-size: 16px;
+  }
+  .discount-img img{
+    width: 100%;
+  }
+  .card img{
+    width: 100%;
+  }
+  .gift-content h3{
+    font-size: 16px;
+  }
+  .gift-content h2{
+    font-size: 25px;
+  }
+  .gift-content p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .newsletter{
+    padding: 10px;
+  }
+  .newsletter-content h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .newsletter-content p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  #email{
+    width: 45%;
+    padding: 20px;
+    font-size: 16px;
+  }
+  #subscribe{
+    width: 43%;
+    padding: 19px;
+    font-size: 17px;
+  }
+  footer{
+    text-align: center;
+    padding: 20px;
+  }
+  .top-column{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon-part{
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .bottom-column{
+    margin-top: 20px;
+  }
+  .social-icons{
+    margin-top: 20px;
+  }
+  .icon img{
+    width: 100%;
+  }
+  .left-side h3{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .icon-part{
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .icon-part h4{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .right-side h3{
+    font-size: 16px;
+    line-height: 25px;
+  }
   
 }
 
@@ -183,6 +270,74 @@ main{
     font-size: 30px;
     margin-bottom: 15px;
   }
+  .holiday-content p{
+    font-size: 18px;
+  }
+  .holiday-content h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .holiday-content h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .discount-img img{
+    width: 100%;
+  }
+  .card img{
+    width: 100%;
+  }
+  .gift-content h3{
+    font-size: 18px;
+  }
+  .gift-content h2{
+    font-size: 35px;
+  }
+  .gift-content p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .newsletter{
+    padding: 65px;
+  }
+  .newsletter-content h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+  }
+  .newsletter-content p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+  }
+  #email{
+    width: 50%;
+    padding: 20px;
+    font-size: 16px;
+  }
+  #subscribe{
+    width: 30%;
+    padding: 20px;
+    font-size: 16px;
+  }
+  footer{
+    text-align: center;
+    padding: 30px;
+  }
+  .top-column{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon-part{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .bottom-column{
+    margin-top: 40px;
+  }
+  .social-icons{
+    margin-top: 40px;
+  }
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -270,6 +425,61 @@ main{
   .offer-column p{
     margin-bottom: 18px;
   }
+  .holiday-content h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .holiday-content h2{
+    font-size: 50px;
+    margin-bottom: 24px;
+  }
+  .discount-img img{
+    width: 100%;
+  }
+  .card img{
+    width: 100%;
+  }
+  .gift-content p{
+    font-size: 18px;
+  }
+  .gift-content h2{
+    font-size: 40px;
+  }
+  .gift-content h3{
+    font-size: 20px;
+  }
+  .newsletter{
+    padding: 75px;
+  }
+  .newsletter-content h2{
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+  .newsletter-content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 45px;
+  }
+  #email{
+    width: 45%;
+  }
+  #subscribe{
+    width: 35%;
+  }
+  footer{
+    text-align: center;
+    padding: 50px;
+  }
+  .top-column{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon-part{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -292,6 +502,12 @@ main{
   }
   .offer-column h2{
     font-size: 40px;
+  }
+  .discount-img img{
+    width: 100%;
+  }
+  .card img{
+    width: 100%;
   }
 }
 
